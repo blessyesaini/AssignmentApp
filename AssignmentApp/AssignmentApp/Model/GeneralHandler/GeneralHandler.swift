@@ -30,7 +30,7 @@ class GeneralHandler: NSObject {
      func testConnection() -> Bool {
         
         var networkstatus = false
-        let reachability = try? Reachability(hostname: "www.apple.com")
+        let reachability = try? Reachability(hostname: WebServiceURL.domain)
         
         switch reachability?.connection {
         case .wifi, .cellular:
