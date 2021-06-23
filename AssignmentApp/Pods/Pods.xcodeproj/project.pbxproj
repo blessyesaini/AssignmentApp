@@ -1,0 +1,1480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09944176280C980EB49784DBCA380462 /* ReachabilitySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A4863C7DA33720595CB289BD07ACBA3 /* ReachabilitySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CA80ED7E59E6BCE64CEEE649A3C6D2F /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CEF90553A53ADB2C64A9F1A42833286 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		102F4487BC4ADC3C2B56A0470E0A9468 /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0C439285C1BC8A93A0DBE53B6B92A0 /* IQKeyboardManagerConstantsInternal.swift */; };
+		2358B57B83BE526AED64799C6892B2CE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0FA356E38007868BC2CB9246318674C /* QuartzCore.framework */; };
+		259D6FC80BCFE785471F743B1F533970 /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A91BC6B0410199DCD7BE8EECF86FC5 /* IQNSArray+Sort.swift */; };
+		264E1A478BDFA31DA6842749C72EA535 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FB4EA5B72E4A43500E39857885F7ACAF /* SVProgressHUD.bundle */; };
+		31F20A3889E3878AEE69E48393F70D10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DCF79F35B782304094AAA21814C6C4 /* Foundation.framework */; };
+		33483C1C427390BED308CBAB3EEEE277 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A419FE9CB4FF173D68F922785EC37B /* CoreGraphics.framework */; };
+		3392F8407B8C6F47A4E47436894642D8 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8856EBBCF25FCFCD5EA2BD56BD4D7C /* SVProgressHUD.m */; };
+		38EE0727B33503FD20E1363988E46AB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1E62802A5F19D849538E501F2DF636 /* UIKit.framework */; };
+		3F091C427A3E96117C902E8EA143729E /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75652F2154C94530906C1D66C3E99FB9 /* IQKeyboardManager.swift */; };
+		4627935AED721C697210046C88CA8918 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC0E4889007EB9EA7DDFD206C16646A7 /* SystemConfiguration.framework */; };
+		4737103B10A1C40C5301D0512B9310E4 /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2DF5F61576ACCE76C79F8A2442FB1A /* IQKeyboardReturnKeyHandler.swift */; };
+		4C069FA7FAA45154DA92CF5DF3BCDCA9 /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADE491A7740BBAC6FC4DF841FF9D044 /* IQUITextFieldView+Additions.swift */; };
+		4F0CF2AD58CF0D08BC090E7AF0DD63D7 /* IQInvocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B25380C65A011117FA809F22F7FE79 /* IQInvocation.swift */; };
+		5044FEAEF09468B6964F9F37A1F1F45C /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00879BA880995F48D9BCB52800121FC4 /* IQPreviousNextView.swift */; };
+		51E6D6EC168CEA630E9150DE56048363 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F47BEC95A1E445E495C62B1AE8DCD8B1 /* CoreTelephony.framework */; };
+		62A85277D0462C43B80A05E8822794BB /* IQKeyboardManagerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6732C67B92A4FF5D8E9D3AAF0403A6D1 /* IQKeyboardManagerSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65303FAC78F15F3CC8F26B67E550775E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DCF79F35B782304094AAA21814C6C4 /* Foundation.framework */; };
+		702C1D987BCA1278347E52891B5C0175 /* Pods-AssignmentApp-AssignmentAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFC041AA200BD87F284BD69689C8D3F /* Pods-AssignmentApp-AssignmentAppUITests-dummy.m */; };
+		74341DA37F4B926FDF4CB2599CAC547A /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424A864E245F8D47EBCC6F9B41062207 /* IQUIViewController+Additions.swift */; };
+		75C2CE592BFD279C1C013E9B67268CB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DCF79F35B782304094AAA21814C6C4 /* Foundation.framework */; };
+		7F52BD0341E46A6053B15014557ACB6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DCF79F35B782304094AAA21814C6C4 /* Foundation.framework */; };
+		7FB3576FD619DD256294BAD7E5F83CBE /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0159C9FDDD742F593FCA172F0261347 /* IQTextView.swift */; };
+		8B439A47AA5FDEF67AD63BDDB808AC5A /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3413C83CF41B4B4813C9C7D35467B8A /* IQUIView+Hierarchy.swift */; };
+		96EADE99073DBA8FCE7904627E2D18EE /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = BBD1B71CB24368CF67E42EFAF041EEA2 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		980E5594F8DBCE362764AEDC2F086E36 /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C072E8A5FBCE9C73CC04ED22AEAEE4B /* IQToolbar.swift */; };
+		9FDEEEE37349769B84A30B0105DFF456 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C16647638E7975BD08BFDC46CDFDA7C5 /* SVProgressHUD-dummy.m */; };
+		A1317D8968100BD04B7CA625D8740A62 /* Pods-AssignmentAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D329774393E33F12999A690D91028B17 /* Pods-AssignmentAppTests-dummy.m */; };
+		AA9B03852DD131C531C16F08DF24265A /* Pods-AssignmentApp-AssignmentAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B169CF8E3839F826C1400345E83E18FB /* Pods-AssignmentApp-AssignmentAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC96F44279E61358242F26840D4853F0 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA7DDD13B441E0E726F7237747DBAA5 /* Reachability.swift */; };
+		AE3B246482DCD60BA846EA3CE983A1FB /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8EB382672FF194542CDDBD655BA5C9 /* IQUIView+IQKeyboardToolbar.swift */; };
+		B2ACB4B4B454991E985D7157CB17426C /* Pods-AssignmentAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42B9C0D7639C2BE990E9643B148D3996 /* Pods-AssignmentAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5B9915F785CB47C5C07F0B698911B00 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5089458564C2891C3D40ECB622934F /* SVIndefiniteAnimatedView.m */; };
+		B98378C55379E1B92897F11A22E38443 /* IQKeyboardManagerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F46204E2E419C69AEBFC717E1370F6 /* IQKeyboardManagerSwift-dummy.m */; };
+		BE5DE6C56CFB36DA1C8BEEFA1234347D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DCF79F35B782304094AAA21814C6C4 /* Foundation.framework */; };
+		C04C5F1F1D6B337F87E157B55A747E41 /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50AB7702AFEECAB4F81CB37B2F239D7 /* IQKeyboardManagerConstants.swift */; };
+		C0EB3776478AB80676E488BC9C9CDA3C /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F904F36D94687B480CB03FAF1CE9FA /* IQUIScrollView+Additions.swift */; };
+		C35DCE97EB77150C41E735DB57BD6616 /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C777E234B89FD774CBA478C1893BCF1 /* IQTitleBarButtonItem.swift */; };
+		D2246BE5AF9C116D84444CC5C955BC02 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E352EE6B2BD98C6534EE1ECCF40EFD /* SVRadialGradientLayer.m */; };
+		D87B2D5ED73534ACF97CE0A52FA18AE4 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 866A0785DF915665B673C33CEC94E5A4 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDE417BA9D13D2BB98316DF0512A1944 /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF76EFCB8EED81F98A2B7DBEDADDD6A /* IQBarButtonItem.swift */; };
+		DE12057AB8895931A0E9499619C5CFC8 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 627C53F68394D38F3818C3C237B9C1BB /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0186A63060F0EB3676F95CD0ACE0E18 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A6AFE213C087243C8A2F30BDEFF0BB6 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E28C2A4D11D0E714F957E6AEF7F92B9F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0FA356E38007868BC2CB9246318674C /* QuartzCore.framework */; };
+		E5F6ACACDF29D937A21E7DEC85A13E3E /* ReachabilitySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF0F08C3838C6ADFBF37FE0C639377E /* ReachabilitySwift-dummy.m */; };
+		E876D80133128A6EBBE3E00B4B6AE43D /* Pods-AssignmentApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F12AFF1D1A133F6637AB44716A366B3 /* Pods-AssignmentApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEAA1518C49804736C3F40117D064CBE /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4158408650CCCF9AAC1733BD8A67F71 /* SVProgressAnimatedView.m */; };
+		EEF066616EFE6EBC57541C1B92C6770A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DCF79F35B782304094AAA21814C6C4 /* Foundation.framework */; };
+		FCA9BA90E231DA79091EDD888DD6E2B9 /* Pods-AssignmentApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5347970034C453E5E1FD11FF396E3143 /* Pods-AssignmentApp-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14ED0D391B1165DA06DC566E6E09D299 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C8D67D8B72D6BA42CCEDB648537A340;
+			remoteInfo = SVProgressHUD;
+		};
+		265F6108E603C724CCAEFA7E82FAE3DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B490E7485944099E16C9CBD79119D1D4;
+			remoteInfo = IQKeyboardManagerSwift;
+		};
+		48C664EF77C98B194522B1993938EBCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B490E7485944099E16C9CBD79119D1D4;
+			remoteInfo = IQKeyboardManagerSwift;
+		};
+		51E9F5E380A32DBB3FA16210B24DF6C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B00B2C167CD783351BD1D00BD5AD1F8;
+			remoteInfo = ReachabilitySwift;
+		};
+		A0CE19F5376B0CC68FE531376098E00C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C8D67D8B72D6BA42CCEDB648537A340;
+			remoteInfo = SVProgressHUD;
+		};
+		C4023E815E746FBFCFC69F23856D8E5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B00B2C167CD783351BD1D00BD5AD1F8;
+			remoteInfo = ReachabilitySwift;
+		};
+		DE215BB40D841F53751A988FC752A8B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C80153DBCBAB4C81C96B80F4946E67D;
+			remoteInfo = "Pods-AssignmentApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00879BA880995F48D9BCB52800121FC4 /* IQPreviousNextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQPreviousNextView.swift; path = IQKeyboardManagerSwift/IQToolbar/IQPreviousNextView.swift; sourceTree = "<group>"; };
+		0A4863C7DA33720595CB289BD07ACBA3 /* ReachabilitySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-umbrella.h"; sourceTree = "<group>"; };
+		0A6AFE213C087243C8A2F30BDEFF0BB6 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		0AEDE7FBD766513041ABD64829CE4CBC /* Pods-AssignmentApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AssignmentApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0BBBEB3D6B03FDA9CED6C61AAF8BF29C /* SVProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
+		0BE6B1E35E3FBDAFB24FC66BD8521C1B /* Pods-AssignmentApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AssignmentApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		18DCF79F35B782304094AAA21814C6C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		21B03CA622E690725A6626C088E1D09F /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Reachability.framework; path = ReachabilitySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2780B7107C7354FDEDF018CDE095FF62 /* Pods-AssignmentApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AssignmentApp.modulemap"; sourceTree = "<group>"; };
+		2C072E8A5FBCE9C73CC04ED22AEAEE4B /* IQToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQToolbar.swift; path = IQKeyboardManagerSwift/IQToolbar/IQToolbar.swift; sourceTree = "<group>"; };
+		2C8856EBBCF25FCFCD5EA2BD56BD4D7C /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		33EDC34E78AE60D5D3D898CE8F8D1CA8 /* SVProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SVProgressHUD-Info.plist"; sourceTree = "<group>"; };
+		3959056072BD68C5346BBDD2C597995B /* IQKeyboardManagerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-prefix.pch"; sourceTree = "<group>"; };
+		395D3606FFD54C236E10E7A0FD1028C3 /* Pods-AssignmentApp-AssignmentAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AssignmentApp-AssignmentAppUITests-Info.plist"; sourceTree = "<group>"; };
+		3DDCF8CE8596D7AACA627C1EB287EE5D /* Pods-AssignmentAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AssignmentAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F8EB382672FF194542CDDBD655BA5C9 /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+IQKeyboardToolbar.swift"; path = "IQKeyboardManagerSwift/IQToolbar/IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
+		424A864E245F8D47EBCC6F9B41062207 /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIViewController+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
+		42B9C0D7639C2BE990E9643B148D3996 /* Pods-AssignmentAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AssignmentAppTests-umbrella.h"; sourceTree = "<group>"; };
+		4C579673E0002CFAE3CCBFC32E1A3FE2 /* IQKeyboardManagerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IQKeyboardManagerSwift.modulemap; sourceTree = "<group>"; };
+		4E1E62802A5F19D849538E501F2DF636 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5347970034C453E5E1FD11FF396E3143 /* Pods-AssignmentApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AssignmentApp-dummy.m"; sourceTree = "<group>"; };
+		58736D1DDF93DB5CE16542057A3A38F2 /* Pods-AssignmentApp-AssignmentAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AssignmentApp-AssignmentAppUITests-frameworks.sh"; sourceTree = "<group>"; };
+		59F46204E2E419C69AEBFC717E1370F6 /* IQKeyboardManagerSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQKeyboardManagerSwift-dummy.m"; sourceTree = "<group>"; };
+		5DEFAEBB4E288AE8453D62FD9D2B7613 /* Pods_AssignmentApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AssignmentApp.framework; path = "Pods-AssignmentApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61EB0A3B62F1C9ACEC87A3CCEDF396FA /* IQKeyboardManagerSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IQKeyboardManagerSwift-Info.plist"; sourceTree = "<group>"; };
+		627C53F68394D38F3818C3C237B9C1BB /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		66A383290F4E35F07761386E8B4B4912 /* SVProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.release.xcconfig; sourceTree = "<group>"; };
+		6732C67B92A4FF5D8E9D3AAF0403A6D1 /* IQKeyboardManagerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-umbrella.h"; sourceTree = "<group>"; };
+		695369F9EC20591781E03D6B579574E1 /* Pods-AssignmentAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AssignmentAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		69F904F36D94687B480CB03FAF1CE9FA /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIScrollView+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
+		6A0C439285C1BC8A93A0DBE53B6B92A0 /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstantsInternal.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
+		6C777E234B89FD774CBA478C1893BCF1 /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTitleBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
+		6E49B7C5236A51E3EB2DACE231C2CD54 /* Pods-AssignmentApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AssignmentApp.release.xcconfig"; sourceTree = "<group>"; };
+		75652F2154C94530906C1D66C3E99FB9 /* IQKeyboardManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManager.swift; path = IQKeyboardManagerSwift/IQKeyboardManager.swift; sourceTree = "<group>"; };
+		7CEF90553A53ADB2C64A9F1A42833286 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		7F12AFF1D1A133F6637AB44716A366B3 /* Pods-AssignmentApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AssignmentApp-umbrella.h"; sourceTree = "<group>"; };
+		866A0785DF915665B673C33CEC94E5A4 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		8AD102F5EBB501F213A4BEE901E19AD7 /* Pods-AssignmentAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AssignmentAppTests.modulemap"; sourceTree = "<group>"; };
+		8D5089458564C2891C3D40ECB622934F /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		8E3527BF688B4854BC4D41487E2BEA70 /* IQKeyboardManagerSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManagerSwift.release.xcconfig; sourceTree = "<group>"; };
+		92D1BC502CCB6F2137D04B99571B88DD /* Pods-AssignmentApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AssignmentApp.debug.xcconfig"; sourceTree = "<group>"; };
+		9380ED91B70425B37B6779C8194163C9 /* Pods_AssignmentApp_AssignmentAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AssignmentApp_AssignmentAppUITests.framework; path = "Pods-AssignmentApp-AssignmentAppUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94E352EE6B2BD98C6534EE1ECCF40EFD /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		9907C32C8DDA101C13B4866D8C4E7E68 /* ReachabilitySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ReachabilitySwift.modulemap; sourceTree = "<group>"; };
+		9ADE491A7740BBAC6FC4DF841FF9D044 /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUITextFieldView+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FF76EFCB8EED81F98A2B7DBEDADDD6A /* IQBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQBarButtonItem.swift; sourceTree = "<group>"; };
+		A0FA356E38007868BC2CB9246318674C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		A4AAD5D1A710E1B8189FDA366E4A2FAF /* Pods-AssignmentApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AssignmentApp-Info.plist"; sourceTree = "<group>"; };
+		A50AB7702AFEECAB4F81CB37B2F239D7 /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstants.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
+		A8A91BC6B0410199DCD7BE8EECF86FC5 /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQNSArray+Sort.swift"; path = "IQKeyboardManagerSwift/Categories/IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IQKeyboardManagerSwift.framework; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEA7DDD13B441E0E726F7237747DBAA5 /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Sources/Reachability.swift; sourceTree = "<group>"; };
+		AEF0F08C3838C6ADFBF37FE0C639377E /* ReachabilitySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReachabilitySwift-dummy.m"; sourceTree = "<group>"; };
+		AF062E6B3DCE654A080E77AE84C72E22 /* Pods_AssignmentAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AssignmentAppTests.framework; path = "Pods-AssignmentAppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF996CDD5CEB068E4440440BFE689EF4 /* Pods-AssignmentApp-AssignmentAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AssignmentApp-AssignmentAppUITests.modulemap"; sourceTree = "<group>"; };
+		B08A0A282E9ECF42CAFA37C8B9BB66D2 /* IQKeyboardManagerSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManagerSwift.debug.xcconfig; sourceTree = "<group>"; };
+		B169CF8E3839F826C1400345E83E18FB /* Pods-AssignmentApp-AssignmentAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AssignmentApp-AssignmentAppUITests-umbrella.h"; sourceTree = "<group>"; };
+		B50976840EB1717872B543230CA338E0 /* Pods-AssignmentApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AssignmentApp-frameworks.sh"; sourceTree = "<group>"; };
+		B7DE7458C2CB724267975A5A40C14212 /* ReachabilitySwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ReachabilitySwift-Info.plist"; sourceTree = "<group>"; };
+		BBD1B71CB24368CF67E42EFAF041EEA2 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		BD4BA52B1C7D4A93C1FCFD27ECDFD8A4 /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
+		C0B18B34D8976453D505EAC19167F7F3 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		C16647638E7975BD08BFDC46CDFDA7C5 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		C1B25380C65A011117FA809F22F7FE79 /* IQInvocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQInvocation.swift; path = IQKeyboardManagerSwift/IQToolbar/IQInvocation.swift; sourceTree = "<group>"; };
+		C2D315F13C5063FB551F5675B0F7321E /* Pods-AssignmentApp-AssignmentAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AssignmentApp-AssignmentAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C5A419FE9CB4FF173D68F922785EC37B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		C84C83C3B87DAC28D13D1465EB21E0F8 /* ReachabilitySwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReachabilitySwift.debug.xcconfig; sourceTree = "<group>"; };
+		C89ECDE0226A24F01B9620CD899348DB /* Pods-AssignmentApp-AssignmentAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AssignmentApp-AssignmentAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CD2DF5F61576ACCE76C79F8A2442FB1A /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardReturnKeyHandler.swift; path = IQKeyboardManagerSwift/IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
+		CE483E8937F29496A2D174458FB3AA09 /* Pods-AssignmentApp-AssignmentAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AssignmentApp-AssignmentAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D0159C9FDDD742F593FCA172F0261347 /* IQTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTextView.swift; path = IQKeyboardManagerSwift/IQTextView/IQTextView.swift; sourceTree = "<group>"; };
+		D02F509C565540FE684012572F73A3B8 /* Pods-AssignmentApp-AssignmentAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AssignmentApp-AssignmentAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D1CE9D40A4722A1492E18C25102B50FF /* Pods-AssignmentAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AssignmentAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D329774393E33F12999A690D91028B17 /* Pods-AssignmentAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AssignmentAppTests-dummy.m"; sourceTree = "<group>"; };
+		D3413C83CF41B4B4813C9C7D35467B8A /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+Hierarchy.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
+		DA9E7A75F560A463ECF2AE009646157F /* Pods-AssignmentAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AssignmentAppTests-Info.plist"; sourceTree = "<group>"; };
+		DC0E4889007EB9EA7DDFD206C16646A7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		DCCD17530D691B6DF329EB0519EBB008 /* ReachabilitySwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-prefix.pch"; sourceTree = "<group>"; };
+		E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA26069B2E68A660C1FE0A23C0A62BFA /* ReachabilitySwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReachabilitySwift.release.xcconfig; sourceTree = "<group>"; };
+		EFF386436EDDCF77AC740EDBC7604B53 /* Pods-AssignmentAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AssignmentAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		F4158408650CCCF9AAC1733BD8A67F71 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		F47BEC95A1E445E495C62B1AE8DCD8B1 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		FB4EA5B72E4A43500E39857885F7ACAF /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		FEFC041AA200BD87F284BD69689C8D3F /* Pods-AssignmentApp-AssignmentAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AssignmentApp-AssignmentAppUITests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A1C5501C4EA5940E4EB17A7E1C297EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31F20A3889E3878AEE69E48393F70D10 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2620BF4A9B88AC597081E306C654BE7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE5DE6C56CFB36DA1C8BEEFA1234347D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C2292E431F316076553538B7FBB63C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33483C1C427390BED308CBAB3EEEE277 /* CoreGraphics.framework in Frameworks */,
+				EEF066616EFE6EBC57541C1B92C6770A /* Foundation.framework in Frameworks */,
+				2358B57B83BE526AED64799C6892B2CE /* QuartzCore.framework in Frameworks */,
+				38EE0727B33503FD20E1363988E46AB2 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A37A51219ED31062DE51A3E139BF37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51E6D6EC168CEA630E9150DE56048363 /* CoreTelephony.framework in Frameworks */,
+				65303FAC78F15F3CC8F26B67E550775E /* Foundation.framework in Frameworks */,
+				4627935AED721C697210046C88CA8918 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAC30E0FDBBAC5CA8A8BBBCE1394C7DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C2CE592BFD279C1C013E9B67268CB2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D1D1191F24E31CEEA04BDB3FB4C0F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F52BD0341E46A6053B15014557ACB6A /* Foundation.framework in Frameworks */,
+				E28C2A4D11D0E714F957E6AEF7F92B9F /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CC50CD8F1D2E3CCDD1CD4CC171E82D5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9907C32C8DDA101C13B4866D8C4E7E68 /* ReachabilitySwift.modulemap */,
+				AEF0F08C3838C6ADFBF37FE0C639377E /* ReachabilitySwift-dummy.m */,
+				B7DE7458C2CB724267975A5A40C14212 /* ReachabilitySwift-Info.plist */,
+				DCCD17530D691B6DF329EB0519EBB008 /* ReachabilitySwift-prefix.pch */,
+				0A4863C7DA33720595CB289BD07ACBA3 /* ReachabilitySwift-umbrella.h */,
+				C84C83C3B87DAC28D13D1465EB21E0F8 /* ReachabilitySwift.debug.xcconfig */,
+				EA26069B2E68A660C1FE0A23C0A62BFA /* ReachabilitySwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ReachabilitySwift";
+			sourceTree = "<group>";
+		};
+		21A96ADBB74C981388B07E10BAD1B5B1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C579673E0002CFAE3CCBFC32E1A3FE2 /* IQKeyboardManagerSwift.modulemap */,
+				59F46204E2E419C69AEBFC717E1370F6 /* IQKeyboardManagerSwift-dummy.m */,
+				61EB0A3B62F1C9ACEC87A3CCEDF396FA /* IQKeyboardManagerSwift-Info.plist */,
+				3959056072BD68C5346BBDD2C597995B /* IQKeyboardManagerSwift-prefix.pch */,
+				6732C67B92A4FF5D8E9D3AAF0403A6D1 /* IQKeyboardManagerSwift-umbrella.h */,
+				B08A0A282E9ECF42CAFA37C8B9BB66D2 /* IQKeyboardManagerSwift.debug.xcconfig */,
+				8E3527BF688B4854BC4D41487E2BEA70 /* IQKeyboardManagerSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IQKeyboardManagerSwift";
+			sourceTree = "<group>";
+		};
+		351FE254D2D1D77E41C381DC9D6EAE71 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FB4EA5B72E4A43500E39857885F7ACAF /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		64539E3575AEFC052DC483585A742D28 /* Pods-AssignmentAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8AD102F5EBB501F213A4BEE901E19AD7 /* Pods-AssignmentAppTests.modulemap */,
+				D1CE9D40A4722A1492E18C25102B50FF /* Pods-AssignmentAppTests-acknowledgements.markdown */,
+				695369F9EC20591781E03D6B579574E1 /* Pods-AssignmentAppTests-acknowledgements.plist */,
+				D329774393E33F12999A690D91028B17 /* Pods-AssignmentAppTests-dummy.m */,
+				DA9E7A75F560A463ECF2AE009646157F /* Pods-AssignmentAppTests-Info.plist */,
+				42B9C0D7639C2BE990E9643B148D3996 /* Pods-AssignmentAppTests-umbrella.h */,
+				3DDCF8CE8596D7AACA627C1EB287EE5D /* Pods-AssignmentAppTests.debug.xcconfig */,
+				EFF386436EDDCF77AC740EDBC7604B53 /* Pods-AssignmentAppTests.release.xcconfig */,
+			);
+			name = "Pods-AssignmentAppTests";
+			path = "Target Support Files/Pods-AssignmentAppTests";
+			sourceTree = "<group>";
+		};
+		69C1B48246FFC2E6AFB3F5355CB5C24D /* Pods-AssignmentApp-AssignmentAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF996CDD5CEB068E4440440BFE689EF4 /* Pods-AssignmentApp-AssignmentAppUITests.modulemap */,
+				C89ECDE0226A24F01B9620CD899348DB /* Pods-AssignmentApp-AssignmentAppUITests-acknowledgements.markdown */,
+				CE483E8937F29496A2D174458FB3AA09 /* Pods-AssignmentApp-AssignmentAppUITests-acknowledgements.plist */,
+				FEFC041AA200BD87F284BD69689C8D3F /* Pods-AssignmentApp-AssignmentAppUITests-dummy.m */,
+				58736D1DDF93DB5CE16542057A3A38F2 /* Pods-AssignmentApp-AssignmentAppUITests-frameworks.sh */,
+				395D3606FFD54C236E10E7A0FD1028C3 /* Pods-AssignmentApp-AssignmentAppUITests-Info.plist */,
+				B169CF8E3839F826C1400345E83E18FB /* Pods-AssignmentApp-AssignmentAppUITests-umbrella.h */,
+				C2D315F13C5063FB551F5675B0F7321E /* Pods-AssignmentApp-AssignmentAppUITests.debug.xcconfig */,
+				D02F509C565540FE684012572F73A3B8 /* Pods-AssignmentApp-AssignmentAppUITests.release.xcconfig */,
+			);
+			name = "Pods-AssignmentApp-AssignmentAppUITests";
+			path = "Target Support Files/Pods-AssignmentApp-AssignmentAppUITests";
+			sourceTree = "<group>";
+		};
+		7C942E9E542EF803CF14C5684FAC3132 /* ReachabilitySwift */ = {
+			isa = PBXGroup;
+			children = (
+				AEA7DDD13B441E0E726F7237747DBAA5 /* Reachability.swift */,
+				1CC50CD8F1D2E3CCDD1CD4CC171E82D5 /* Support Files */,
+			);
+			name = ReachabilitySwift;
+			path = ReachabilitySwift;
+			sourceTree = "<group>";
+		};
+		7C9AD11639E168B5A8D1F3C4ABBA2C11 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				BBD1B71CB24368CF67E42EFAF041EEA2 /* SVIndefiniteAnimatedView.h */,
+				8D5089458564C2891C3D40ECB622934F /* SVIndefiniteAnimatedView.m */,
+				0A6AFE213C087243C8A2F30BDEFF0BB6 /* SVProgressAnimatedView.h */,
+				F4158408650CCCF9AAC1733BD8A67F71 /* SVProgressAnimatedView.m */,
+				7CEF90553A53ADB2C64A9F1A42833286 /* SVProgressHUD.h */,
+				2C8856EBBCF25FCFCD5EA2BD56BD4D7C /* SVProgressHUD.m */,
+				866A0785DF915665B673C33CEC94E5A4 /* SVRadialGradientLayer.h */,
+				94E352EE6B2BD98C6534EE1ECCF40EFD /* SVRadialGradientLayer.m */,
+				351FE254D2D1D77E41C381DC9D6EAE71 /* Resources */,
+				EF888A13AAEBAE81DD2877C358C50634 /* Support Files */,
+			);
+			name = SVProgressHUD;
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		A3447AD0ED65710C85145FB13638D589 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC35D9679C32F03837B202BA69F9A228 /* Pods-AssignmentApp */,
+				69C1B48246FFC2E6AFB3F5355CB5C24D /* Pods-AssignmentApp-AssignmentAppUITests */,
+				64539E3575AEFC052DC483585A742D28 /* Pods-AssignmentAppTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A97849F9065BCB43EBC766B01FC42C1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8CC74EA0A4FAB6D18BD693668B1C1D2 /* IQKeyboardManagerSwift */,
+				7C942E9E542EF803CF14C5684FAC3132 /* ReachabilitySwift */,
+				7C9AD11639E168B5A8D1F3C4ABBA2C11 /* SVProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B3EB0A73F507F561F3CC4F9FD769BE8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift.framework */,
+				5DEFAEBB4E288AE8453D62FD9D2B7613 /* Pods_AssignmentApp.framework */,
+				9380ED91B70425B37B6779C8194163C9 /* Pods_AssignmentApp_AssignmentAppUITests.framework */,
+				AF062E6B3DCE654A080E77AE84C72E22 /* Pods_AssignmentAppTests.framework */,
+				21B03CA622E690725A6626C088E1D09F /* Reachability.framework */,
+				E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC35D9679C32F03837B202BA69F9A228 /* Pods-AssignmentApp */ = {
+			isa = PBXGroup;
+			children = (
+				2780B7107C7354FDEDF018CDE095FF62 /* Pods-AssignmentApp.modulemap */,
+				0AEDE7FBD766513041ABD64829CE4CBC /* Pods-AssignmentApp-acknowledgements.markdown */,
+				0BE6B1E35E3FBDAFB24FC66BD8521C1B /* Pods-AssignmentApp-acknowledgements.plist */,
+				5347970034C453E5E1FD11FF396E3143 /* Pods-AssignmentApp-dummy.m */,
+				B50976840EB1717872B543230CA338E0 /* Pods-AssignmentApp-frameworks.sh */,
+				A4AAD5D1A710E1B8189FDA366E4A2FAF /* Pods-AssignmentApp-Info.plist */,
+				7F12AFF1D1A133F6637AB44716A366B3 /* Pods-AssignmentApp-umbrella.h */,
+				92D1BC502CCB6F2137D04B99571B88DD /* Pods-AssignmentApp.debug.xcconfig */,
+				6E49B7C5236A51E3EB2DACE231C2CD54 /* Pods-AssignmentApp.release.xcconfig */,
+			);
+			name = "Pods-AssignmentApp";
+			path = "Target Support Files/Pods-AssignmentApp";
+			sourceTree = "<group>";
+		};
+		C8CC74EA0A4FAB6D18BD693668B1C1D2 /* IQKeyboardManagerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				9FF76EFCB8EED81F98A2B7DBEDADDD6A /* IQBarButtonItem.swift */,
+				C1B25380C65A011117FA809F22F7FE79 /* IQInvocation.swift */,
+				75652F2154C94530906C1D66C3E99FB9 /* IQKeyboardManager.swift */,
+				A50AB7702AFEECAB4F81CB37B2F239D7 /* IQKeyboardManagerConstants.swift */,
+				6A0C439285C1BC8A93A0DBE53B6B92A0 /* IQKeyboardManagerConstantsInternal.swift */,
+				CD2DF5F61576ACCE76C79F8A2442FB1A /* IQKeyboardReturnKeyHandler.swift */,
+				A8A91BC6B0410199DCD7BE8EECF86FC5 /* IQNSArray+Sort.swift */,
+				00879BA880995F48D9BCB52800121FC4 /* IQPreviousNextView.swift */,
+				D0159C9FDDD742F593FCA172F0261347 /* IQTextView.swift */,
+				6C777E234B89FD774CBA478C1893BCF1 /* IQTitleBarButtonItem.swift */,
+				2C072E8A5FBCE9C73CC04ED22AEAEE4B /* IQToolbar.swift */,
+				69F904F36D94687B480CB03FAF1CE9FA /* IQUIScrollView+Additions.swift */,
+				9ADE491A7740BBAC6FC4DF841FF9D044 /* IQUITextFieldView+Additions.swift */,
+				D3413C83CF41B4B4813C9C7D35467B8A /* IQUIView+Hierarchy.swift */,
+				3F8EB382672FF194542CDDBD655BA5C9 /* IQUIView+IQKeyboardToolbar.swift */,
+				424A864E245F8D47EBCC6F9B41062207 /* IQUIViewController+Additions.swift */,
+				21A96ADBB74C981388B07E10BAD1B5B1 /* Support Files */,
+			);
+			name = IQKeyboardManagerSwift;
+			path = IQKeyboardManagerSwift;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D68CA58901FBF589D75F5E40F1EAF5BA /* Frameworks */,
+				A97849F9065BCB43EBC766B01FC42C1C /* Pods */,
+				B3EB0A73F507F561F3CC4F9FD769BE8B /* Products */,
+				A3447AD0ED65710C85145FB13638D589 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D68CA58901FBF589D75F5E40F1EAF5BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE685B32117C549B0B52E0780979A48A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF888A13AAEBAE81DD2877C358C50634 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD4BA52B1C7D4A93C1FCFD27ECDFD8A4 /* SVProgressHUD.modulemap */,
+				C16647638E7975BD08BFDC46CDFDA7C5 /* SVProgressHUD-dummy.m */,
+				33EDC34E78AE60D5D3D898CE8F8D1CA8 /* SVProgressHUD-Info.plist */,
+				C0B18B34D8976453D505EAC19167F7F3 /* SVProgressHUD-prefix.pch */,
+				627C53F68394D38F3818C3C237B9C1BB /* SVProgressHUD-umbrella.h */,
+				0BBBEB3D6B03FDA9CED6C61AAF8BF29C /* SVProgressHUD.debug.xcconfig */,
+				66A383290F4E35F07761386E8B4B4912 /* SVProgressHUD.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		FE685B32117C549B0B52E0780979A48A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C5A419FE9CB4FF173D68F922785EC37B /* CoreGraphics.framework */,
+				F47BEC95A1E445E495C62B1AE8DCD8B1 /* CoreTelephony.framework */,
+				18DCF79F35B782304094AAA21814C6C4 /* Foundation.framework */,
+				A0FA356E38007868BC2CB9246318674C /* QuartzCore.framework */,
+				DC0E4889007EB9EA7DDFD206C16646A7 /* SystemConfiguration.framework */,
+				4E1E62802A5F19D849538E501F2DF636 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		09F7B7D04C454C16C0015640CF269F7E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09944176280C980EB49784DBCA380462 /* ReachabilitySwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2613C236C4BFE6AC73EA14F786C4AA0A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E876D80133128A6EBBE3E00B4B6AE43D /* Pods-AssignmentApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C044C67F11489EFA3459B8399E7061C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96EADE99073DBA8FCE7904627E2D18EE /* SVIndefiniteAnimatedView.h in Headers */,
+				E0186A63060F0EB3676F95CD0ACE0E18 /* SVProgressAnimatedView.h in Headers */,
+				DE12057AB8895931A0E9499619C5CFC8 /* SVProgressHUD-umbrella.h in Headers */,
+				0CA80ED7E59E6BCE64CEEE649A3C6D2F /* SVProgressHUD.h in Headers */,
+				D87B2D5ED73534ACF97CE0A52FA18AE4 /* SVRadialGradientLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9D99269AD3127DE96CFBDCDAB522242 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2ACB4B4B454991E985D7157CB17426C /* Pods-AssignmentAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C49C2018CE3A2EBACA5DDC5532E781 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9B03852DD131C531C16F08DF24265A /* Pods-AssignmentApp-AssignmentAppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4A6429FF0F9608A16E4D96813E85F23 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62A85277D0462C43B80A05E8822794BB /* IQKeyboardManagerSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E50A4613BA081C4F47DEEC1F9B9176BA /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */;
+			buildPhases = (
+				09F7B7D04C454C16C0015640CF269F7E /* Headers */,
+				9C9FF78F6878BCE13B73B6BB5DD0A609 /* Sources */,
+				92A37A51219ED31062DE51A3E139BF37 /* Frameworks */,
+				1EA4E360633A1D5CC11F6E9C4EEC2475 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReachabilitySwift;
+			productName = ReachabilitySwift;
+			productReference = 21B03CA622E690725A6626C088E1D09F /* Reachability.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E76C288BA44757915CF3700D8A326EB7 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildPhases = (
+				7C044C67F11489EFA3459B8399E7061C /* Headers */,
+				D0233C648200ED130A278D7164E80914 /* Sources */,
+				B3D1D1191F24E31CEEA04BDB3FB4C0F2 /* Frameworks */,
+				7BB2E885B360CCC1AEF0C191542BA06E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVProgressHUD;
+			productName = SVProgressHUD;
+			productReference = E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		32356F5CF67D6BCFB9FF2F3C7399A9CD /* Pods-AssignmentApp-AssignmentAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38BC97CE5094A4A9371E5740A57382F2 /* Build configuration list for PBXNativeTarget "Pods-AssignmentApp-AssignmentAppUITests" */;
+			buildPhases = (
+				F1C49C2018CE3A2EBACA5DDC5532E781 /* Headers */,
+				0D24D34098B9C3F49DA92123C780F469 /* Sources */,
+				AAC30E0FDBBAC5CA8A8BBBCE1394C7DE /* Frameworks */,
+				8D76DBF4DF378CC5B46E40CB2B39EF86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF33A1EE05CE55F090BF9D17CC19C2CB /* PBXTargetDependency */,
+				D25BCF284AE4424D6607A5B691719A94 /* PBXTargetDependency */,
+				23FA729A29021322552C3EDA1C295DC0 /* PBXTargetDependency */,
+			);
+			name = "Pods-AssignmentApp-AssignmentAppUITests";
+			productName = "Pods-AssignmentApp-AssignmentAppUITests";
+			productReference = 9380ED91B70425B37B6779C8194163C9 /* Pods_AssignmentApp_AssignmentAppUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8C80153DBCBAB4C81C96B80F4946E67D /* Pods-AssignmentApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 842129E4F53337892EADFECC71CD7E9B /* Build configuration list for PBXNativeTarget "Pods-AssignmentApp" */;
+			buildPhases = (
+				2613C236C4BFE6AC73EA14F786C4AA0A /* Headers */,
+				68327D02A960E42DE1A3EFA9A0ABACB4 /* Sources */,
+				1A1C5501C4EA5940E4EB17A7E1C297EB /* Frameworks */,
+				A3305962E0B528F0639E6302C247E9B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8DB5CFE8D9A8A9EF7D78EF5318C9363 /* PBXTargetDependency */,
+				5C8C18AC430A8D64C25E6C65390746EC /* PBXTargetDependency */,
+				88B11DBF64D57888C248F1E9E72D7E16 /* PBXTargetDependency */,
+			);
+			name = "Pods-AssignmentApp";
+			productName = "Pods-AssignmentApp";
+			productReference = 5DEFAEBB4E288AE8453D62FD9D2B7613 /* Pods_AssignmentApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B490E7485944099E16C9CBD79119D1D4 /* IQKeyboardManagerSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7155AE59A19533F60ECE3B4045B01F0 /* Build configuration list for PBXNativeTarget "IQKeyboardManagerSwift" */;
+			buildPhases = (
+				F4A6429FF0F9608A16E4D96813E85F23 /* Headers */,
+				6C02E9CBF87ED8A1C6D8ED4C951F75A4 /* Sources */,
+				2C2292E431F316076553538B7FBB63C3 /* Frameworks */,
+				FAA5DA81F8292820D65F403E941074FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IQKeyboardManagerSwift;
+			productName = IQKeyboardManagerSwift;
+			productReference = A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B980FF6B2490A73CECCF55218FACD25B /* Pods-AssignmentAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 454BCD3E38509CFF55629166D69C6770 /* Build configuration list for PBXNativeTarget "Pods-AssignmentAppTests" */;
+			buildPhases = (
+				A9D99269AD3127DE96CFBDCDAB522242 /* Headers */,
+				CD7E7DE6F05109A2463AE5BBD72D6641 /* Sources */,
+				2620BF4A9B88AC597081E306C654BE7C /* Frameworks */,
+				E9FCB0659E41C9267756C9FB88AA8E5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AC6BD9E3C12E9C8D19CFAAEA14DE557 /* PBXTargetDependency */,
+			);
+			name = "Pods-AssignmentAppTests";
+			productName = "Pods-AssignmentAppTests";
+			productReference = AF062E6B3DCE654A080E77AE84C72E22 /* Pods_AssignmentAppTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B3EB0A73F507F561F3CC4F9FD769BE8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B490E7485944099E16C9CBD79119D1D4 /* IQKeyboardManagerSwift */,
+				8C80153DBCBAB4C81C96B80F4946E67D /* Pods-AssignmentApp */,
+				32356F5CF67D6BCFB9FF2F3C7399A9CD /* Pods-AssignmentApp-AssignmentAppUITests */,
+				B980FF6B2490A73CECCF55218FACD25B /* Pods-AssignmentAppTests */,
+				0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */,
+				1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EA4E360633A1D5CC11F6E9C4EEC2475 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB2E885B360CCC1AEF0C191542BA06E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264E1A478BDFA31DA6842749C72EA535 /* SVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D76DBF4DF378CC5B46E40CB2B39EF86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3305962E0B528F0639E6302C247E9B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9FCB0659E41C9267756C9FB88AA8E5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA5DA81F8292820D65F403E941074FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D24D34098B9C3F49DA92123C780F469 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				702C1D987BCA1278347E52891B5C0175 /* Pods-AssignmentApp-AssignmentAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68327D02A960E42DE1A3EFA9A0ABACB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA9BA90E231DA79091EDD888DD6E2B9 /* Pods-AssignmentApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C02E9CBF87ED8A1C6D8ED4C951F75A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE417BA9D13D2BB98316DF0512A1944 /* IQBarButtonItem.swift in Sources */,
+				4F0CF2AD58CF0D08BC090E7AF0DD63D7 /* IQInvocation.swift in Sources */,
+				3F091C427A3E96117C902E8EA143729E /* IQKeyboardManager.swift in Sources */,
+				C04C5F1F1D6B337F87E157B55A747E41 /* IQKeyboardManagerConstants.swift in Sources */,
+				102F4487BC4ADC3C2B56A0470E0A9468 /* IQKeyboardManagerConstantsInternal.swift in Sources */,
+				B98378C55379E1B92897F11A22E38443 /* IQKeyboardManagerSwift-dummy.m in Sources */,
+				4737103B10A1C40C5301D0512B9310E4 /* IQKeyboardReturnKeyHandler.swift in Sources */,
+				259D6FC80BCFE785471F743B1F533970 /* IQNSArray+Sort.swift in Sources */,
+				5044FEAEF09468B6964F9F37A1F1F45C /* IQPreviousNextView.swift in Sources */,
+				7FB3576FD619DD256294BAD7E5F83CBE /* IQTextView.swift in Sources */,
+				C35DCE97EB77150C41E735DB57BD6616 /* IQTitleBarButtonItem.swift in Sources */,
+				980E5594F8DBCE362764AEDC2F086E36 /* IQToolbar.swift in Sources */,
+				C0EB3776478AB80676E488BC9C9CDA3C /* IQUIScrollView+Additions.swift in Sources */,
+				4C069FA7FAA45154DA92CF5DF3BCDCA9 /* IQUITextFieldView+Additions.swift in Sources */,
+				8B439A47AA5FDEF67AD63BDDB808AC5A /* IQUIView+Hierarchy.swift in Sources */,
+				AE3B246482DCD60BA846EA3CE983A1FB /* IQUIView+IQKeyboardToolbar.swift in Sources */,
+				74341DA37F4B926FDF4CB2599CAC547A /* IQUIViewController+Additions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C9FF78F6878BCE13B73B6BB5DD0A609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC96F44279E61358242F26840D4853F0 /* Reachability.swift in Sources */,
+				E5F6ACACDF29D937A21E7DEC85A13E3E /* ReachabilitySwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7E7DE6F05109A2463AE5BBD72D6641 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1317D8968100BD04B7CA625D8740A62 /* Pods-AssignmentAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0233C648200ED130A278D7164E80914 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5B9915F785CB47C5C07F0B698911B00 /* SVIndefiniteAnimatedView.m in Sources */,
+				EEAA1518C49804736C3F40117D064CBE /* SVProgressAnimatedView.m in Sources */,
+				9FDEEEE37349769B84A30B0105DFF456 /* SVProgressHUD-dummy.m in Sources */,
+				3392F8407B8C6F47A4E47436894642D8 /* SVProgressHUD.m in Sources */,
+				D2246BE5AF9C116D84444CC5C955BC02 /* SVRadialGradientLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23FA729A29021322552C3EDA1C295DC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = 1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */;
+			targetProxy = A0CE19F5376B0CC68FE531376098E00C /* PBXContainerItemProxy */;
+		};
+		3AC6BD9E3C12E9C8D19CFAAEA14DE557 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AssignmentApp";
+			target = 8C80153DBCBAB4C81C96B80F4946E67D /* Pods-AssignmentApp */;
+			targetProxy = DE215BB40D841F53751A988FC752A8B1 /* PBXContainerItemProxy */;
+		};
+		5C8C18AC430A8D64C25E6C65390746EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReachabilitySwift;
+			target = 0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */;
+			targetProxy = 51E9F5E380A32DBB3FA16210B24DF6C3 /* PBXContainerItemProxy */;
+		};
+		88B11DBF64D57888C248F1E9E72D7E16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = 1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */;
+			targetProxy = 14ED0D391B1165DA06DC566E6E09D299 /* PBXContainerItemProxy */;
+		};
+		D25BCF284AE4424D6607A5B691719A94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReachabilitySwift;
+			target = 0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */;
+			targetProxy = C4023E815E746FBFCFC69F23856D8E5B /* PBXContainerItemProxy */;
+		};
+		D8DB5CFE8D9A8A9EF7D78EF5318C9363 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IQKeyboardManagerSwift;
+			target = B490E7485944099E16C9CBD79119D1D4 /* IQKeyboardManagerSwift */;
+			targetProxy = 48C664EF77C98B194522B1993938EBCF /* PBXContainerItemProxy */;
+		};
+		DF33A1EE05CE55F090BF9D17CC19C2CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IQKeyboardManagerSwift;
+			target = B490E7485944099E16C9CBD79119D1D4 /* IQKeyboardManagerSwift */;
+			targetProxy = 265F6108E603C724CCAEFA7E82FAE3DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2523392A09D6E826DD64976C0C445393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66A383290F4E35F07761386E8B4B4912 /* SVProgressHUD.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = SVProgressHUD;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		31247B3BF8D145A41AB7A48D9743480B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E49B7C5236A51E3EB2DACE231C2CD54 /* Pods-AssignmentApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AssignmentApp/Pods-AssignmentApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AssignmentApp/Pods-AssignmentApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3BE7200682DA3DD02079CC5BBF5E56EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B08A0A282E9ECF42CAFA37C8B9BB66D2 /* IQKeyboardManagerSwift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift.modulemap";
+				PRODUCT_MODULE_NAME = IQKeyboardManagerSwift;
+				PRODUCT_NAME = IQKeyboardManagerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		55BFFF46625F45CF79213BAB1A4DBEE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DDCF8CE8596D7AACA627C1EB287EE5D /* Pods-AssignmentAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AssignmentAppTests/Pods-AssignmentAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AssignmentAppTests/Pods-AssignmentAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6F9ABC4ECE4615A315434203338D663A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA26069B2E68A660C1FE0A23C0A62BFA /* ReachabilitySwift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		73E24DE146BF37B7305E1663B634B1ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D02F509C565540FE684012572F73A3B8 /* Pods-AssignmentApp-AssignmentAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AssignmentApp-AssignmentAppUITests/Pods-AssignmentApp-AssignmentAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AssignmentApp-AssignmentAppUITests/Pods-AssignmentApp-AssignmentAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7D06A784025F8033DD359DE587B8DF28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BBBEB3D6B03FDA9CED6C61AAF8BF29C /* SVProgressHUD.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = SVProgressHUD;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9F45E8DB3C91C4FC98FABD5624A2F0E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C84C83C3B87DAC28D13D1465EB21E0F8 /* ReachabilitySwift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AF3C2A7D158AFF22D6B9171A25484915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92D1BC502CCB6F2137D04B99571B88DD /* Pods-AssignmentApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AssignmentApp/Pods-AssignmentApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AssignmentApp/Pods-AssignmentApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B8C487C08714663FA853D58BB81B81D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFF386436EDDCF77AC740EDBC7604B53 /* Pods-AssignmentAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AssignmentAppTests/Pods-AssignmentAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AssignmentAppTests/Pods-AssignmentAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ECD830E9FF60065425D88BB789C29686 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E3527BF688B4854BC4D41487E2BEA70 /* IQKeyboardManagerSwift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift.modulemap";
+				PRODUCT_MODULE_NAME = IQKeyboardManagerSwift;
+				PRODUCT_NAME = IQKeyboardManagerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F3E7BF92A483F28F236EB39C743BE586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2D315F13C5063FB551F5675B0F7321E /* Pods-AssignmentApp-AssignmentAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AssignmentApp-AssignmentAppUITests/Pods-AssignmentApp-AssignmentAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AssignmentApp-AssignmentAppUITests/Pods-AssignmentApp-AssignmentAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38BC97CE5094A4A9371E5740A57382F2 /* Build configuration list for PBXNativeTarget "Pods-AssignmentApp-AssignmentAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3E7BF92A483F28F236EB39C743BE586 /* Debug */,
+				73E24DE146BF37B7305E1663B634B1ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		454BCD3E38509CFF55629166D69C6770 /* Build configuration list for PBXNativeTarget "Pods-AssignmentAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55BFFF46625F45CF79213BAB1A4DBEE0 /* Debug */,
+				B8C487C08714663FA853D58BB81B81D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
+				903A0004D3E6651EFD5D2E16214D101B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		842129E4F53337892EADFECC71CD7E9B /* Build configuration list for PBXNativeTarget "Pods-AssignmentApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF3C2A7D158AFF22D6B9171A25484915 /* Debug */,
+				31247B3BF8D145A41AB7A48D9743480B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7155AE59A19533F60ECE3B4045B01F0 /* Build configuration list for PBXNativeTarget "IQKeyboardManagerSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BE7200682DA3DD02079CC5BBF5E56EB /* Debug */,
+				ECD830E9FF60065425D88BB789C29686 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E50A4613BA081C4F47DEEC1F9B9176BA /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F45E8DB3C91C4FC98FABD5624A2F0E5 /* Debug */,
+				6F9ABC4ECE4615A315434203338D663A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E76C288BA44757915CF3700D8A326EB7 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D06A784025F8033DD359DE587B8DF28 /* Debug */,
+				2523392A09D6E826DD64976C0C445393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

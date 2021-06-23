@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-AssignmentApp-AssignmentAppUITests/Pods-AssignmentApp-AssignmentAppUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework
+${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework
+${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework
