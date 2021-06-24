@@ -69,9 +69,6 @@ class SessionHandlers: NSObject {
                 }
                 
                 if let httpStatus = response as? HTTPURLResponse{
-                    
-                    DispatchQueue.main.async {
-                    }
                     if  httpStatus.statusCode >= 200 && httpStatus.statusCode <= 206 {
                         closure(ApiResponse(status: true, response: serviceData))
                         
