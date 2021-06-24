@@ -32,5 +32,30 @@ class HomeViewController: UIViewController {
             
         }
     }
+    //MARK: - new enquiry tapped
 
+    @IBAction func newEnquiryTapped(_ sender: Any) {
+        if #available(iOS 13.0, *) {
+            let formVC = self.storyboard?.instantiateViewController(identifier: Controllers.formViewController.getName()) as! FormViewController
+            self.navigationController?.pushViewController(formVC, animated: true)
+        } else {
+            // Fallback on earlier versions
+            let formVC = self.storyboard?.instantiateViewController(withIdentifier: Controllers.formViewController.getName()) as! FormViewController
+            self.navigationController?.pushViewController(formVC, animated: true)
+        }
+       
+    }
+    //MARK: - view existing list tapped
+
+    @IBAction func viewEnquiryTapped(_ sender: Any) {
+        if #available(iOS 13.0, *) {
+            let formVC = self.storyboard?.instantiateViewController(identifier: Controllers.userListVieController.getName()) as! UsersListViewController
+            self.navigationController?.pushViewController(formVC, animated: true)
+        } else {
+            // Fallback on earlier versions
+            let formVC = self.storyboard?.instantiateViewController(withIdentifier: Controllers.userListVieController.getName()) as! UsersListViewController
+            self.navigationController?.pushViewController(formVC, animated: true)
+        }
+    }
+    
 }
