@@ -28,6 +28,7 @@
 		657CEC5F2683A8DC00F4FE24 /* UserActivitiesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657CEC5E2683A8DC00F4FE24 /* UserActivitiesRequest.swift */; };
 		657CEC612683A91D00F4FE24 /* WebserviceURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657CEC602683A91D00F4FE24 /* WebserviceURL.swift */; };
 		657CEC632683AA7D00F4FE24 /* SessionHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657CEC622683AA7D00F4FE24 /* SessionHandlers.swift */; };
+		657CEC6526846B4300F4FE24 /* KeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657CEC6426846B4300F4FE24 /* KeyHandler.swift */; };
 		99670238D10EB856E1A9F184 /* Pods_AssignmentApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A08329DB42A57D30E25AB07 /* Pods_AssignmentApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -79,6 +80,7 @@
 		657CEC5E2683A8DC00F4FE24 /* UserActivitiesRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserActivitiesRequest.swift; sourceTree = "<group>"; };
 		657CEC602683A91D00F4FE24 /* WebserviceURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebserviceURL.swift; sourceTree = "<group>"; };
 		657CEC622683AA7D00F4FE24 /* SessionHandlers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionHandlers.swift; sourceTree = "<group>"; };
+		657CEC6426846B4300F4FE24 /* KeyHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyHandler.swift; sourceTree = "<group>"; };
 		8C728F18702A3C7D3E227910 /* Pods_AssignmentAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AssignmentAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E8580ED81FA1EBDED78959C /* Pods-AssignmentApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AssignmentApp.release.xcconfig"; path = "Target Support Files/Pods-AssignmentApp/Pods-AssignmentApp.release.xcconfig"; sourceTree = "<group>"; };
 		9A08329DB42A57D30E25AB07 /* Pods_AssignmentApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AssignmentApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -230,6 +232,7 @@
 			isa = PBXGroup;
 			children = (
 				657CEC5C2683A4FD00F4FE24 /* GeneralHandler.swift */,
+				657CEC6426846B4300F4FE24 /* KeyHandler.swift */,
 			);
 			path = GeneralHandler;
 			sourceTree = "<group>";
@@ -506,6 +509,7 @@
 				657CEC512683581B00F4FE24 /* UsersListViewController.swift in Sources */,
 				657CEC58268394FC00F4FE24 /* HomeViewController.swift in Sources */,
 				657CEC4B2683525300F4FE24 /* UserModel.swift in Sources */,
+				657CEC6526846B4300F4FE24 /* KeyHandler.swift in Sources */,
 				657CEC5F2683A8DC00F4FE24 /* UserActivitiesRequest.swift in Sources */,
 				657CEC49268351B800F4FE24 /* DataBaseHelper.swift in Sources */,
 				657CEC5D2683A4FD00F4FE24 /* GeneralHandler.swift in Sources */,

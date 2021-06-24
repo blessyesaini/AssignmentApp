@@ -124,13 +124,24 @@ class FormViewController: UIViewController {
                 
                 DispatchQueue.main.async {
                     if response.status {
-                        GeneralHandler.shared.showAlert(controller: self, message: "Data Saved Successfully!!!", infoImage: #imageLiteral(resourceName: "alert"))
+                       // GeneralHandler.shared.showAlert(controller: self, message: "Data Saved Successfully!!!", infoImage: #imageLiteral(resourceName: "alert"))
                         //Save data to Core Data
                         DatabaseHandler.shared.createEnqury(newEnquiry: newEnquiry) { status in
                             if status {
-                                self.resetValues()
+                              self.resetValues()
+                                if #available(iOS 13.0, *) {
+                                    let listVC = self.storyboard?.instantiateViewController(identifier: Controllers.userListVieController.getName()) as! UsersListViewController
+                                  self.navigationController?.pushViewController(listVC, animated: true)
+                                }
+                                else {
+                                    // Fallback on earlier versions
+                                    let listVC = self.storyboard?.instantiateViewController(withIdentifier: Controllers.userListVieController.getName()) as! UsersListViewController
+                                 self.navigationController?.pushViewController(listVC, animated: true)
+                                }
                             }
                         }
+                       
+                        
                     }
                 }
                 

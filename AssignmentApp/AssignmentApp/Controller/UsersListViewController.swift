@@ -11,7 +11,7 @@ import Reachability
 class UsersListViewController: UIViewController {
     
     @IBOutlet weak var networkStatusSegment: UISegmentedControl!
-    @IBOutlet var noDataView: UILabel!
+    @IBOutlet var noDataView: UIView!
     @IBOutlet weak var usersTableView: UITableView!
     
     var isOffline: Bool = true
