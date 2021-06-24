@@ -109,7 +109,7 @@ class FormViewController: UIViewController {
               let desc = self.descriptionTextarea.text,
               desc.count != 0 else {
             
-            GeneralHandler.shared.showAlert(controller: self, message: "Please Enter All datas", infoImage: #imageLiteral(resourceName: "Burj-Khalifa"))
+            GeneralHandler.shared.showAlert(controller: self, message: "Please Enter All datas", infoImage: #imageLiteral(resourceName: "alert"))
             
             return
         }

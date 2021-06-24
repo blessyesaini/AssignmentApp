@@ -65,7 +65,7 @@ class GeneralHandler: NSObject {
         
         if let alertPresentController = controller{
             
-            let validationLinkAlert = UIAlertController(title: "", message:"\n \n \n \n \n" + message, preferredStyle: .alert)
+            let validationLinkAlert = UIAlertController(title: "", message:"\n \n \n\n" + message, preferredStyle: .alert)
             
             let dismissAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
             validationLinkAlert.addAction(dismissAction)
