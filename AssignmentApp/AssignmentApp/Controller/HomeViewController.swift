@@ -19,7 +19,7 @@ class HomeViewController: UIViewController {
         initProcess()
         // Do any additional setup after loading the view.
     }
-    //MARK: - initialisation method
+    //MARK: - initialisation methods
 
     fileprivate func initProcess() {
         
