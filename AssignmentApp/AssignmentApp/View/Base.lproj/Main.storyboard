@@ -106,7 +106,7 @@
                                             <constraint firstAttribute="height" constant="40" id="r7t-qn-FVW"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
-                                        <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="emailAddress"/>
                                     </textField>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2zT-jm-zlh">
                                         <rect key="frame" x="10" y="91" width="35" height="35"/>
@@ -174,7 +174,7 @@
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mqh-Wq-LWL">
                                                         <rect key="frame" x="186.5" y="0.0" width="181.5" height="54"/>
-                                                        <color key="backgroundColor" red="0.27237145010000002" green="0.44783965549999999" blue="0.38100120180000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <color key="backgroundColor" red="0.67248465798117896" green="0.15641022991478062" blue="0.13121690081612797" alpha="0.7615156363177773" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <state key="normal" title="Clear"/>
